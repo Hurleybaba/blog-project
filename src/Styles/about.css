@@ -1,0 +1,51 @@
+.about {
+  position: relative;
+  width: 100%;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.about .contentBx {
+  max-width: 50%;
+  width: 50%;
+  text-align: left;
+  padding-right: 40px;
+}
+
+.titleText {
+  font-weight: 600;
+  color: #111;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.title-text {
+  color: #111;
+  font-size: 1em;
+}
+
+.about .imgBx {
+  position: relative;
+  min-width: 50%;
+  width: 50%;
+  min-height: 500px;
+}
+
+.btn2 {
+  position: relative;
+  display: inline-block;
+  margin-top: 30px;
+  padding: 10px 30px;
+  background: #fff;
+  border: 0.8px solid #111;
+  color: #333;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.btn2:hover {
+  background-color: var(--second-color);
+  border: none;
+  color: #fff;
+}

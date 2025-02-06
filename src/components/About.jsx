@@ -1,4 +1,5 @@
 import React from "react";
+import "../Styles/about.css";
 
 const About = () => {
   return (
@@ -21,7 +22,7 @@ const About = () => {
         </a>
       </div>
       <div className="imgBx">
-        <img src="images/about.png" alt="" className="fitBg" />
+        <img src="/about.png" alt="" className="fitBg" />
       </div>
     </section>
   );
