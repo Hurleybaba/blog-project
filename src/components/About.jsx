@@ -1,5 +1,6 @@
 import React from "react";
 import "../Styles/about.css";
+import "../Styles/media.css";
 
 const About = () => {
   return (

@@ -1,5 +1,6 @@
 import React from "react";
 import "../Styles/home.css";
+import "../Styles/media.css";
 
 const Home = () => {
   return (

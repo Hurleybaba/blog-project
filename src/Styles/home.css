@@ -1,7 +1,7 @@
 .home {
   width: 100%;
   min-height: 440px;
-  background: url("../../public/banner2.png");
+  background: url("../../banner2.png");
   display: grid;
   justify-content: center;
   align-items: center;

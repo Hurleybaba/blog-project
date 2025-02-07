@@ -20,6 +20,7 @@ header.shadow .logo {
   align-items: center;
   justify-content: space-between;
   padding: 18px 0;
+  width: 100%;
 }
 
 .logo {
@@ -36,6 +37,7 @@ header.shadow .logo {
   padding: 8px 14px;
   text-transform: uppercase;
   font-weight: 500;
+  margin: 0;
   border-radius: 4px;
   background: var(--second-color);
   color: var(--bg-color);
