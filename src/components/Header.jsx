@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import "../Styles/header.css";
 import "../Styles/media.css";
+import { Link } from "react-router-dom";
 
 const Header = ({ isLogin }) => {
   useEffect(() => {
@@ -25,9 +26,9 @@ const Header = ({ isLogin }) => {
             Log out
           </a>
         ) : (
-          <a href="#" className="login">
+          <Link to="/login" className="login">
             Sign In
-          </a>
+          </Link>
         )}
       </div>
     </header>
